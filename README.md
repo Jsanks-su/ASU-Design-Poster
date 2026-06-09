@@ -1,6 +1,6 @@
 # ASU Design Poster Skill
 
-This repository packages one portable AI-agent skill:
+This repository packages one portable AI-agent skill. The repository intentionally keeps only the files required to install and reuse the skill:
 
 ```text
 asu-design-poster/
@@ -64,5 +64,3 @@ For agents with custom tool, prompt, or knowledge-pack systems, treat this as a 
 ## Distribution Notes
 
 Keep the skill folder self-contained. Do not move reference files away from `asu-design-poster/references/`, because `SKILL.md` refers to them by relative path.
-
-Generated examples in `output/` are examples only. They are not required for installation.
