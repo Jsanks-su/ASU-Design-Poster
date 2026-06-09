@@ -1,9 +1,9 @@
 ---
-name: movie-poster-style-director
-description: Use when Codex needs to turn arbitrary content, concepts, products, essays, events, campaigns, or prompts into content-matched high-quality poster or pictorial-poster image-generation prompts, including cinematic, animated, abstract, graphic, ink, painterly, platform-sized, typography-aware, inventive, and anti-low-design poster direction.
+name: asu-design-poster
+description: Use when Codex needs ASU Design Poster to turn arbitrary content, concepts, products, essays, events, campaigns, or prompts into content-matched high-quality poster or pictorial-poster image-generation prompts, including cinematic, animated, abstract, graphic, ink, painterly, platform-sized, typography-aware, inventive, and anti-low-design poster direction.
 ---
 
-# Movie Poster Style Director
+# ASU Design Poster
 
 ## Core Principle
 

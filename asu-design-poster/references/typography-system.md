@@ -12,7 +12,7 @@ For ChatGPT Image 2 or direct poster-generation tests, the poster should visibly
 - context-appropriate supporting copy: tagline, quote, theme phrase, annotation, column label, metadata, side note, footer text, release-like microtype, bilingual fragments, or small designed labels
 - lower or side information block, invented emblem, logo-like mark, icon, pictogram, seal, or tiny metadata cluster when it fits the brief
 
-Exact small text does not need to be readable. It should read visually as intentional poster copy. Small movie-poster-style text can be used for beauty, rhythm, atmosphere, and hierarchy. Use full fake cast lists, false real release dates, or billing blocks only when the user asks for release simulation or the lineage clearly needs that grammar. Keep invented marks generic/fictive unless the user supplies real logos or assets.
+Exact small text does not need to be readable. It should read visually as intentional poster copy. Small movie-poster-style text can be used for beauty, rhythm, atmosphere, and hierarchy. Use full fake cast lists, false real release dates, or billing blocks only when the user explicitly asks for full release simulation. Otherwise use generic or fictive microtype, field labels, annotation, footer marks, or small metadata texture. Keep invented marks generic/fictive unless the user supplies real logos or assets.
 
 ## Microcopy And Marks
 

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Movie Poster Style Director"
-  short_description: "生成有图像机制、字体层级、小字标识系统和审美筛选的高级海报"
-  default_prompt: "Use $movie-poster-style-director to turn this content into a refined high-quality poster or pictorial-poster prompt for image generation."
