@@ -22,6 +22,7 @@ Reject or remove these unless the user explicitly asks for a deliberately tacky 
 - stale Chinese style: hanfu figure pasted on misty mountains, decorative calligraphy plus red seal, generic lantern/bamboo/cloud/dragon/plum-blossom symbols, gray ink wash filter, antique texture without dramatic mechanism
 - generic "premium poster" safety: centered subject, atmospheric background, tasteful title, but no negative-space reveal, scale pressure, symbolic object, color rupture, typographic structure, or other image mechanism
 - over-restrained concept plate: no visible title, no supporting copy structure, no poster hierarchy, too much empty tastefulness, or a clean frame that does not feel like a finished poster
+- abstract wallpaper: large gradient, texture, color field, or painterly surface with no visual anchor, no title/copy hierarchy, no story pressure, or no poster mechanism
 
 Allowed when designed: small release-like microtype, invented emblems, logo-like marks, icons, pictograms, seals, footer metadata, and tiny bilingual fragments. They become low-design only when they are random stickers, fake brand claims, fake cast-list clutter, or unrelated decoration.
 
@@ -45,6 +46,7 @@ Allowed when designed: small release-like microtype, invented emblems, logo-like
 | Poster feels usable but flat | Name one image mechanism and one tension pair before adding detail. |
 | Poster feels too quiet | Add poster presence: visible title, supporting copy, annotation/footer text block, stronger crop, larger symbol, richer color field, or character-led visual force. |
 | Poster feels under-designed | Add a controlled microcopy system: tiny release-like text, invented emblem, icon row, seal, footer metadata, or side labels that match the poster world. |
+| Abstract route looks like wallpaper | Add one readable anchor, one field conflict, structural typography, print material, and a three-second visual sentence. |
 
 ## Minimum Quality Bar
 
@@ -60,3 +62,4 @@ Before final output, answer yes to all:
 - Is text handled intentionally?
 - Does this include visible poster copy when the goal is direct generation?
 - Would the image idea still be strong if the copy were removed?
+- For abstract or impressionistic routes, can you name the visual anchor, dominant field, field conflict, typography role, and material behavior?

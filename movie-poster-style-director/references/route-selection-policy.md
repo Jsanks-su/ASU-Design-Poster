@@ -24,15 +24,30 @@ Every route must answer:
 
 ## Short-Title Routing
 
-When the user gives only a title, build a hidden shortlist of 3-5 route hypotheses:
+When the user gives only a title, scan the route families below, then choose 3-5 for the shortlist. Do not use every family just because it is listed.
 
 1. a faithful or genre-congruent route
 2. an argument-led metaphor route
 3. a counterpoint route if it sharpens the idea
 4. a material or typography-led route when title/period/evidence matters
 5. a popular-readability route when the title needs immediate mass appeal
+6. an abstract or impressionistic route only when the title can be compressed into a visual anchor and an emotional field
 
 Pick the route with the clearest three-second promise. Do not pick abstraction only because it looks premium. Do not pick realism if it lacks a concrete scene, subject, or visual fact.
+
+## Abstract Fit Gate
+
+Use `abstract-impression-poster-grammar.md` before selecting an abstract, impressionistic, color-block, typography-led, collage, or painterly-field route.
+
+Abstraction is justified when it can answer all five questions:
+
+- What is the visual anchor?
+- What is the dominant field?
+- What is the field conflict?
+- How does typography participate in the image?
+- What print, paper, light, or material behavior prevents wallpaper?
+
+If the route cannot answer these before prompting, reject or revise it. If the user explicitly asks for abstract or impressionistic treatment, keep that intent but still build a real poster mechanism rather than a vague abstract background.
 
 ## Counterpoint Gate
 
@@ -58,6 +73,10 @@ If the input is title-only, realism needs one invented but precise cinematic sit
 ## Multiple Outputs
 
 For a batch, do not force each image into a different style family. Start from the content and choose the few strongest hypotheses. Several outputs may share the same broad route when that is what the subject demands.
+
+For title-only or random-topic batches, use a light coverage floor rather than a quota: in 8-12 outputs, include 1-2 non-realistic primary routes only when they pass the content-fit gate. These routes may be abstraction, graphic modernism, impressionistic field, typography-led poster, collage, painterly route, or another non-realistic visual family. This is a correction against accidental realism, not a mechanical percentage target.
+
+If the user explicitly asks for abstract, impressionistic, color-block, graphic, typography-led, collage, or less realistic treatment, that instruction overrides the light floor and may become the primary route for the whole batch.
 
 Acceptable batch variation when the content supports it:
 

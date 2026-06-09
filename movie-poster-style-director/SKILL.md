@@ -29,8 +29,9 @@ If the user asks to generate an image and an image API/tool is available, produc
 2. Route the visual style:
    - Read `references/style-router.md` unless the user already gave a specific style.
    - Read `references/route-selection-policy.md` when the input is title-only, abstract, or asks for multiple outputs.
+   - Read `references/abstract-impression-poster-grammar.md` when the user asks for abstract, impressionistic, color-block, graphic, typography-led, collage, painterly-field, or less realistic output; when a title-only brief is mostly emotional or philosophical; or when batch tests have drifted too realistic.
    - Read `references/chinese-cinematic-grammar.md` when the subject is Chinese culture, Chinese history, wuxia, myth, folk memory, Chinese-language drama, Chinese city life, "Chinese style", "guofeng", or "国风".
-   - Consider 2-3 route hypotheses when the content genuinely supports multiple interpretations; this is a diagnostic step, not a quota.
+   - For simple single-output briefs, consider 2-3 route hypotheses when the content genuinely supports multiple interpretations. For title-only, ambiguous, or batch contexts, scan the route families and choose 3-5 route hypotheses for the shortlist. This is a diagnostic step, not a quota.
    - Do not vary styles for their own sake. Match the content first. Alternatives must be defensible interpretations of the same content, such as faithful fit, counterpoint, argument-led metaphor, material logic, audience readability, color logic, or typography system.
    - Pick one primary visual world before writing the final prompt: live-action realism, graphic modernism, ink/line drawing, painterly, animation/anime, experimental abstraction, collage, retro genre cinema, or another specific route.
 
@@ -153,6 +154,7 @@ Never let title text dominate the poster unless the chosen lineage is explicitly
 - `references/poster-style-catalog.md`: compact catalog of 100 cinematic poster lineages and design grammars.
 - `references/style-router.md`: route arbitrary content into distinct poster style families before prompting.
 - `references/route-selection-policy.md`: content-first route selection, counterpoint gate, argument-led routing, and multiple-output judgment.
+- `references/abstract-impression-poster-grammar.md`: abstract/impression route triggers, color-field and typography-led grammar, source grammar policy, and anti-wallpaper gate.
 - `references/chinese-cinematic-grammar.md`: modern Chinese cinematic poster grammar beyond stale ink/calligraphy defaults.
 - `references/cinematic-poster-quality-bar.md`: image mechanism, visual tension, and poster-quality gate for sharper film-key-art prompts.
 - `references/poster-invention-operators.md`: mechanism-generation operators for less obvious, more original poster ideas.

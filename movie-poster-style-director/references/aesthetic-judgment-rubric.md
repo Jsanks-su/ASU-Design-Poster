@@ -2,6 +2,8 @@
 
 Use this after generating image-mechanism hypotheses and before writing the final prompt. This is the judging layer that prevents both stale templates and random novelty.
 
+This is a pre-generation scoring tool. Use it to select the strongest route or mechanism before writing the final prompt. After generation, inspect the output for execution errors and correction notes, but do not treat post-generation review as the main aesthetic scoring step.
+
 ## Scoring
 
 Score each candidate from 0-3 on each dimension. Prefer the highest total only if it has no fatal flaw.
@@ -20,6 +22,19 @@ Score each candidate from 0-3 on each dimension. Prefer the highest total only i
 | Material intelligence | None | Surface texture | Fits subject | Material itself tells the story |
 | Anti-low resilience | AI-poster risk | Some template risk | Mostly disciplined | Hard to cheapen without breaking concept |
 
+## Abstract Route Gate
+
+Use this as a pass/fail gate only for abstract, impressionistic, color-field, typography-led, collage, or painterly-field routes. Do not add these points to the general score, because doing so would unfairly penalize realistic, animation, ink, guofeng, documentary, or other non-abstract routes.
+
+Reject or revise the abstract candidate before prompting unless it can name:
+
+- visual anchor
+- dominant field
+- field conflict
+- typography role
+- material behavior
+- three-second poster promise
+
 ## Fatal Flaws
 
 Reject the candidate even if it scores well elsewhere:
@@ -33,6 +48,7 @@ Reject the candidate even if it scores well elsewhere:
 - It has no visible poster copy when the goal is a direct poster-generation test.
 - It becomes a campaign banner, product ad, fan art, or mood board.
 - It becomes a tasteful concept plate instead of a finished poster or pictorial poster.
+- It becomes abstract wallpaper, album-cover texture, or decorative color field with no visual anchor, title/copy hierarchy, or story pressure.
 - The cultural symbols are decorative rather than structural.
 
 ## Selection Rules
@@ -43,6 +59,7 @@ Choose the candidate that best balances:
 2. **Poster presence**: it has a real title/copy hierarchy and enough visual force to read as a finished high-quality poster or pictorial poster.
 3. **One-image memory**: the viewer can remember it as a simple visual sentence.
 4. **Production plausibility**: a current image model can plausibly render it.
+5. **For abstract routes**: the abstract route gate passes before prompting.
 
 When candidates tie, prefer the one with stronger poster presence and image mechanism over the one with prettier restraint.
 
@@ -52,6 +69,7 @@ When candidates tie, prefer the one with stronger poster presence and image mech
 Candidate A: [mechanism] - score [x]/33
 Strength: [best dimension]
 Risk: [main flaw]
+Abstract gate: [pass/fail/not applicable]
 Verdict: [keep/reject/revise]
 ```
 
@@ -67,6 +85,7 @@ Verdict: [keep/reject/revise]
 | Low typography | Decide whether type is image, label, seal, institution, whisper, export subtitle, or post-production zone. |
 | Low poster presence | Add visible title treatment, supporting copy, annotation, footer text block, stronger focal hierarchy, or a more confident crop. |
 | Low visual amplitude | Increase scale contrast, title size, color field, body crop, symbol clarity, or graphic force without adding clutter. |
+| Low abstract discipline | Name the anchor, dominant field, field conflict, typography role, and material behavior; if one is missing, revise the route before prompting. |
 
 ## Output Rule
 

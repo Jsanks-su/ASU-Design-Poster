@@ -66,6 +66,17 @@ Color strategy: [dominant colors], [support colors], [accent color and narrative
 Aspect ratio: [ratio], designed for [platform/use].
 ```
 
+## Abstract / Impression Poster
+
+Use this after reading `abstract-impression-poster-grammar.md`.
+
+```text
+A vertical abstract-impression cinematic poster for [subject/content], using [color field / symbol minimal / typographic architecture / constructivist plane conflict / Polish surreal metaphor / risograph halftone field / theatrical void / impressionistic memory field] visual grammar. Abstraction degree: [low / medium / high, with one readable anchor preserved]. Visual anchor: [one person/object/body fragment/letterform/chair/tree/smoke/blade/eye/throne/door]. Dominant field: [large color/texture/stage/paper/sky/canopy/letterform plane] carrying [emotion or story pressure]. Field conflict: [tiny vs huge / red vs black / blank vs crowded / soft memory vs sharp threat / flat color vs photographic object / calm grid vs violence]. Typography role: [title as architecture / title as cut / title as institutional grid / title as stage signage / title as whisper / title as marginalia], with [supporting copy / microtype / invented emblem / side labels / footer metadata] integrated into the poster structure. Material behavior: [halftone / risograph / screen print / rough ink / paper grain / flash photo / rubbed texture / matte lithograph]. Three-second read: [simple visual sentence]. Anti-wallpaper gate: the image must remain a finished movie poster with a clear title/copy hierarchy, visual anchor, and story pressure, not an abstract background, album cover, or decorative concept plate.
+
+Color strategy: [dominant colors], [support colors], [accent color and narrative role], [saturation/contrast/material].
+Aspect ratio: [ratio], designed for [platform/use].
+```
+
 ## Typography-Led Poster
 
 ```text
@@ -97,7 +108,7 @@ Append route-specific negatives:
 - ink/line: generic computer calligraphy, muddy gray wash, decorative brush clutter
 - animation/anime: childish mascot unless requested, game loading screen, fan-art clutter
 - painterly: muddy brushwork, kitsch fantasy painting, overdecorated frame
-- abstract/collage: random chaos, meaningless layers, scrapbook template
+- abstract/collage: random chaos, meaningless layers, scrapbook template, abstract wallpaper, decorative gradient background, album cover without poster hierarchy, color field with no anchor, pretty texture with no title/copy structure
 - Chinese/guofeng: stale costume-drama poster, lantern and bamboo symbols, generic dragon/cloud ornament, computer calligraphy, decorative seal, antique texture with no narrative purpose
 
 ## Variant Pattern

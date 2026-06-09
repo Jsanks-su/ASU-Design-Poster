@@ -19,18 +19,31 @@ Pick one primary route and optionally one secondary influence.
 | Youth, love, friendship, everyday life | coming-of-age photo, anime theatrical, pastel illustration, risograph, candid street realism |
 | Product/business concept with metaphor | premium commercial key art, graphic symbol, collage, modernist typography, surreal object poster |
 | Very abstract title or philosophical idea | modernist abstraction, surrealism, symbolic object, typography-led, painterly field |
+| Explicit request for abstract, impressionistic, color-block, graphic, typography-led, collage, or less realistic poster | abstract/impression poster grammar, color field poster, symbol minimal poster, typographic architecture, constructivist plane conflict, theatrical void, risograph/halftone field |
 
 ## Route Hypothesis Rule
 
-When the user gives only a title, consider a hidden shortlist of up to 3 routes. This is a thinking aid, not an output quota:
+When the user gives only a title, scan the route table and candidate families, then choose 3-5 for the shortlist. This is a thinking aid, not an output quota:
 
 1. one faithful or genre-congruent route
 2. one argument-led metaphor route
 3. one counterpoint, material-led, typography-led, or popular-readability route when it fits
+4. one abstract or impressionistic route only when the title can be compressed into a visual anchor and an emotional field
 
 Choose the route that best matches the title's emotional promise. If the user is exploring, show only the routes that are genuinely defensible and ask which one to generate.
 
 For multiple outputs, do not mechanically assign one realism, one graphic, one ink, and one abstract route. Start from content fit. Multiple outputs may share a broad visual family if the content demands it; vary stance, symbol, composition, color logic, or typography only when that creates a stronger interpretation. See `route-selection-policy.md`.
+
+## Abstract Pressure Trigger
+
+Read `abstract-impression-poster-grammar.md` when any of these are true:
+
+- the user asks for abstract, impressionistic, color-block, graphic, typography-led, collage, painterly-field, or less realistic output
+- the input is title-only and its strongest signal is mood, philosophy, memory, time, dream, silence, identity, power, bureaucracy, dread, or absurdity
+- a batch of title-only/random prompts has produced too many realistic posters and a defensible non-realistic route is needed as light coverage
+- the subject can be compressed into one visual anchor and one dominant emotional field
+
+Do not choose abstraction just because it looks premium. Use it only when the poster can name a visual anchor, dominant field, field conflict, typography role, and material behavior before prompting.
 
 ## Style Mixing
 

@@ -67,6 +67,14 @@ Use this catalog to widen outputs beyond realistic prestige posters. Choose a sp
 - minimal object metaphor: one object carries the story, almost no environment
 - monochrome field poster: texture, scale, and title do the work
 - surreal symbolic poster: impossible object, clear silhouette, restrained palette
+- color field poster: one vast emotional color/texture field with a small readable anchor and strong title hierarchy
+- symbol minimal poster: one blade, eye, chair, smoke column, door, flower, cage, or object carries the whole poster
+- typographic architecture: title or letterforms become wall, road, stage, instrument, shadow, cut, or horizon
+- constructivist plane conflict: diagonal geometry, limited palette, type locked to planes, public urgency
+- Polish surreal metaphor: rough printed metaphor, body/object transformation, expressive lettering, oblique commentary
+- risograph halftone field: one or two ink colors, dot texture, light/cloud/sky/memory as printed field
+- theatrical void: black stage field, light portals, seats, throne, curtain planes, silhouettes, power hierarchy
+- impressionistic memory field: tree, rain, grass, sea, street, or canopy as a heightened memory surface
 
 ## Retro And Genre Commercial
 
