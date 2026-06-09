@@ -28,7 +28,7 @@ Allowed when designed: small release-like microtype, invented emblems, logo-like
 
 ## Repair Rules
 
-| Low Signal | Better Movie-Poster Move |
+| Low Signal | Better Poster Move |
 | --- | --- |
 | Too many ideas | Pick one symbolic object or one emotional face. |
 | Too much text | Reserve a typography zone; add text in post-production. |
